@@ -1,0 +1,47 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,600;8..144,800&display=swap');
+
+.btn{
+    border-radius: 0 !important;
+}
+
+.card{
+    border-radius: 0 !important;
+}
+ 
+section:nth-child(even){
+    background: lightgrey;
+}
+
+header{
+    height: 80vh;
+    min-height: 300px;
+    background-image: url(/Assets/img/background.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+header .text{
+    text-align: center;
+    padding-top: 15rem;
+}
+
+
+/* navbar */
+.navbar h3{
+    color: black;
+}
+
+.navbar .nav-item .nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar .nav-item .nav-link{
+    padding: 0 2rem !important;
+}
+.navbar .navbar-nav .icon i{
+    color: black;
+    font-weight: 500;
+}
+
